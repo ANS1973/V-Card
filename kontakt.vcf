@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Andre Ansmann
+N:Ansmann, Andre;;;
+ORG:HARDECK Möbel GmbH & Co. KG
+TITLE:TGA HAustechnik & IT
+TEL;TYPE=WORK:+49 5461 960 350
+TEL;TYPE=CELL:+49 178 9354 044
+EMAIL:Andre.Ansmann@hardeck.de
+URL:https://www.hardeck.de
+ADR;TYPE=WORK:;;Alte Engterstr. 4;Bramsche;;49565;Deutschland
+END:VCARD
