@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Andre Ansmann | HARDECK Möbel GmbH & Co. KG</title>
+
+<meta name="description" content="Digitale Visitenkarte von Andre Ansmann - TGA HaustechniK & IT">
+
+<style>
+
+:root{
+    --dark:#1f2937;
+    --blue:#2c4f6e;
+    --yellow:#f2c300;
+    --white:#ffffff;
+    --light:#f5f7fa;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,var(--dark),#111827);
+    color:var(--white);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:500px;
+    background:#2a3441;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(0,0,0,.4);
+}
+
+.header{
+    background:var(--blue);
+    padding:30px;
+    text-align:center;
+    border-bottom:5px solid var(--yellow);
+}
+
+.logo{
+    width:120px;
+    margin-bottom:20px;
+}
+
+.profile-image{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid var(--yellow);
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:2rem;
+    margin-bottom:8px;
+}
+
+.job{
+    color:var(--yellow);
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.company{
+    opacity:.9;
+}
+
+.content{
+    padding:30px;
+}
+
+.info{
+    margin-bottom:15px;
+    padding:15px;
+    background:rgba(255,255,255,.05);
+    border-radius:12px;
+}
+
+.info strong{
+    display:block;
+    color:var(--yellow);
+    margin-bottom:5px;
+}
+
+.info a{
+    color:var(--white);
+    text-decoration:none;
+}
+
+.buttons{
+    display:grid;
+    gap:12px;
+    margin-top:25px;
+}
+
+.btn{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    padding:15px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:var(--yellow);
+    color:#000;
+}
+
+.btn-secondary{
+    background:var(--blue);
+    color:white;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#bbb;
+    font-size:.85rem;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="header">
+
+        <img src="logo.png" alt="HARDECK Logo" class="logo">
+
+        <img src="andre.jpg" alt="Andre Ansmann" class="profile-image">
+
+        <h1>Andre Ansmann</h1>
+
+        <div class="job">TGA HaustechniK & IT</div>
+
+        <div class="company">
+            HARDECK Möbel GmbH & Co. KG
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="info">
+            <strong>Telefon</strong>
+            <a href="tel:+495461960350">
+                +49 5461 960 350
+            </a>
+        </div>
+
+        <div class="info">
+            <strong>Mobil</strong>
+            <a href="tel:+491789354044">
+                +49 178 9354 044
+            </a>
+        </div>
+
+        <div class="info">
+            <strong>E-Mail</strong>
+            <a href="mailto:Andre.Ansmann@hardeck.de">
+                Andre.Ansmann@hardeck.de
+            </a>
+        </div>
+
+        <div class="info">
+            <strong>Website</strong>
+            <a href="https://www.hardeck.de" target="_blank">
+                www.hardeck.de
+            </a>
+        </div>
+
+        <div class="info">
+            <strong>Adresse</strong>
+            Alte Engterstr. 4<br>
+            49565 Bramsche
+        </div>
+
+        <div class="buttons">
+
+            <a class="btn btn-primary"
+               href="andre-ansmann.vcf">
+                Kontakt speichern (vCard)
+            </a>
+
+            <a class="btn btn-secondary"
+               href="https://www.hardeck.de"
+               target="_blank">
+                HARDECK besuchen
+            </a>
+
+            <a class="btn btn-secondary"
+               href="mailto:Andre.Ansmann@hardeck.de">
+                E-Mail senden
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Digitale NFC-Visitenkarte
+    </div>
+
+</div>
+
+</body>
+</html>
